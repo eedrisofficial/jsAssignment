@@ -1,0 +1,74 @@
+/* Changing browser's default settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.biography-wrapper {
+  margin: auto;
+  padding: 30px;
+  width: 600px;
+  border: 4px solid #11172e;
+}
+
+.biography-wrapper img {
+  border-radius: 20px;
+}
+
+.profile {
+  font-weight: bold;
+}
+
+.bio-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 5px;
+  line-height: 20px;
+}
+
+.brief {
+  text-align: justify;
+}
+
+.learn {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-family: "sofia", sans-serif;
+}
+
+.updating p {
+  font-size: 20px;
+}
+
+.updating {
+  margin-bottom: 10px;
+  line-height: 29px;
+  color: red;
+}
+
+.learn button {
+  padding: 10px;
+  background-color: #0d1957;
+  color: #fff;
+  width: 120px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.learn button:hover {
+  background-color: #2037a8;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.javaScriptDisplay {
+  display: none;
+  color: #0d1957;
+}
